@@ -2,9 +2,10 @@ import type { AuthOptions } from 'next-auth'
 
 /**
  * This function had to be added because the `next-auth/prisma-adapter` adapter has an import from `@prisma/client`.
- * However, since our client is located under `~~/prisma/client`, it could not be found and this leads to an error.
+ * However, since the client can be located anywhere (e.g. in `~/prisma/client`),
+ * it can not be found in `@prisma/client` and this leads to an error with the official adapter.
  *
- * The code below was taken from the next-auth repo. The types were added to have them available.
+ * The code below was taken from the next-auth repo. The types were added to not depend on Prisma types at all.
  * Next-Auth@4.21.1: https://github.com/nextauthjs/next-auth/blob/next-auth%404.21.1/packages/adapter-prisma/src/index.ts
  */
 type Adapter = Exclude<AuthOptions['adapter'], undefined>
