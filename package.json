@@ -1,7 +1,7 @@
 {
   "name": "@sidebase/authjs-prisma-adapter",
   "version": "1.0.0",
-  "description": "A Prisma 6 adapter for next-auth/authjs",
+  "description": "A next-auth/authjs type-compatible Prisma 6 adapter for the new `prisma-client`-provider",
   "keywords": [],
   "license": "MIT",
   "type": "module",
