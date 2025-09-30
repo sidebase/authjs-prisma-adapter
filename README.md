@@ -1,5 +1,31 @@
 # @sidebase/authjs-prisma-adapter
 
+<!-- Badges Start -->
+<p>
+  <a href="https://npmjs.com/package/@sidebase/nuxt-auth">
+    <img src="https://img.shields.io/npm/v/@sidebase/authjs-prisma-adapter.svg?style=flat-square&colorA=202128&colorB=36936A" alt="Version">
+  </a>
+  <a href="https://npmjs.com/package/@sidebase/nuxt-auth">
+    <img src="https://img.shields.io/npm/dm/@sidebase/authjs-prisma-adapter.svg?style=flat-square&colorA=202128&colorB=36936A" alt="Downloads">
+  </a>
+  <a href="https://github.com/sidebase/nuxt-auth/stargazers">
+    <img src="https://img.shields.io/github/stars/sidebase/authjs-prisma-adapter.svg?style=flat-square&colorA=202128&colorB=36936A" alt="Downloads">
+  </a>
+  <a href="https://github.com/sidebase/nuxt-auth/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/sidebase/authjs-prisma-adapter.svg?style=flat-square&colorA=202128&colorB=36936A" alt="License">
+  </a>
+  <a href="https://auth.sidebase.io">
+    <img src="https://img.shields.io/badge/Docs-202128?style=flat-square&logo=gitbook&logoColor=DDDDD4" alt="Docs">
+  </a>
+  <a href="https://x.com/sidebase_io">
+    <img src="https://img.shields.io/badge/Follow_us-202128?style=flat-square&logo=X&logoColor=DDDDD4" alt="Follow us on X">
+  </a>
+  <a href="https://discord.gg/NDDgQkcv3s">
+    <img src="https://img.shields.io/badge/Join_our_Discord-202128?style=flat-square&logo=discord&logoColor=DDDDD4" alt="Join our Discord">
+  </a>
+</p>
+<!-- Badges End -->
+
 A **type-compatible [NextAuth.js](https://next-auth.js.org/) Prisma adapter** for Prisma 6, designed for projects where the Prisma client is not located at `@prisma/client`.
 
 This solves the problem with the official [`@next-auth/prisma-adapter`](https://github.com/nextauthjs/next-auth/tree/main/packages/adapter-prisma), which hardcodes an import from `@prisma/client`.
